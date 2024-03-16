@@ -3,6 +3,10 @@
         color: var(--white-color);
         font-size: 18px;
         text-decoration: none;
+        transition: all .2s ease-in;
+    }
+    &__link:hover{
+        color: var(--blue-background-color);
     }
     &__list{
         display: flex;
