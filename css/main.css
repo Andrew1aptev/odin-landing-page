@@ -246,3 +246,60 @@ body {
   border: 2px solid var(--white-color);
   border-radius: 20px;
 }
+
+.info {
+  padding: 100px 0px 200px 0px;
+}
+
+.info__title {
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.info__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.info__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  max-width: 200px;
+  color: #000;
+}
+
+.info__card-image {
+  background-image: url("../img/info/1.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  width: 200px;
+  padding-top: 200px;
+  border: 2px solid var(--blue-background-color);
+  border-radius: 20px;
+}
+
+.info__card-image--2 {
+  background-image: url("../img/info/2.webp");
+}
+
+.info__card-image--3 {
+  background-image: url("../img/info/3.webp");
+}
+
+.info__card-image--4 {
+  background-image: url("../img/info/4.webp");
+}
+
+.info__card-text {
+  text-align: center;
+}
