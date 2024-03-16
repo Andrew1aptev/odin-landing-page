@@ -1,0 +1,11 @@
+.nav{
+    &__link{
+        color: var(--white-color);
+        font-size: 18px;
+        text-decoration: none;
+    }
+    &__list{
+        display: flex;
+        column-gap: 50px;
+    }
+}
