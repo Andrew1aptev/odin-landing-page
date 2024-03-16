@@ -154,6 +154,7 @@ svg * {
   --dark-background-color: #1F2937;
   --blue-background-color: #3882F6;
   --white-color: #F9FAF8;
+  --quote-background: #E5E7EB;
   --font-family: "Roboto", sans-serif;
 }
 
@@ -302,4 +303,25 @@ body {
 
 .info__card-text {
   text-align: center;
+}
+
+.quote {
+  background-color: var(--quote-background);
+  padding: 200px 0px 200px 0px;
+}
+
+.quote__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.qoute__text {
+  font-size: 36px;
+  font-style: italic;
+}
+
+.quote__author {
+  font-size: 20px;
+  align-self: flex-end;
+  font-weight: 700;
 }
