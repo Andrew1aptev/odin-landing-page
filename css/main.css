@@ -275,6 +275,7 @@ body {
   row-gap: 20px;
   max-width: 200px;
   color: #000;
+  text-decoration: none;
 }
 
 .info__card-image {
@@ -324,4 +325,40 @@ body {
   font-size: 20px;
   align-self: flex-end;
   font-weight: 700;
+}
+
+.banner {
+  padding: 200px 0px 200px 0px;
+}
+
+.banner__wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--blue-background-color);
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.banner__title {
+  font-size: 25px;
+  color: var(--white-color);
+}
+
+.banner__descr {
+  color: var(--white-color);
+}
+
+.banner__button {
+  padding: 5px 50px;
+  background-color: var(--blue-background-color);
+  border: 2px solid var(--white-color);
+  border-radius: 20px;
+  color: var(--white-color);
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.banner__button:hover {
+  color: #000000;
+  background-color: var(--white-color);
 }
