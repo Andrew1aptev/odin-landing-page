@@ -362,3 +362,13 @@ body {
   color: #000000;
   background-color: var(--white-color);
 }
+
+.footer {
+  padding: 20px 0px 20px 0px;
+  background-color: var(--dark-background-color);
+}
+.footer__text {
+  font-size: 20px;
+  text-align: center;
+  color: var(--white-color);
+}
